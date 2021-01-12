@@ -5,7 +5,7 @@ def sum_int(num):
         print('Answer = 0') 
         print('Wrong input...BYE!')
     else:
-        for x in range (num+1): # This loop is looping through the rang of num+1 ex if num = 3 range is (0,4)
+        for x in range (num+1): # This loop is looping through the range of num+1 ex if num = 3 range is (0,4)
             total += x #computing the total for each x 
     return f'Here is your sum, {total}.' 
 
