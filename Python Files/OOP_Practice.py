@@ -72,3 +72,7 @@ We've created a MyList class which stores a list at the point of instantiation u
 We stored that list inside an attribute of MyList called data.
 We've created a method — MyList.appendd() — which mimics the behavior of list.append().
 '''
+
+num = 3
+num = -num 
+print(num)
